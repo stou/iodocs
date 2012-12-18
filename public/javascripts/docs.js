@@ -1,5 +1,11 @@
 (function() {
 
+    // Add entry to html array type
+    $('td.parameter > input.add-array-entry').click(function() {
+        $(this).prev().clone().val("").insertBefore(this);
+    })
+
+
     // Storing common selections
     var allEndpoints = $('li.endpoint'),
         allEndpointsLength = allEndpoints.length,

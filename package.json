@@ -26,7 +26,7 @@
     "jade": "0.13",
     "oauth": "0.9.3",
     "redis": ">= 0.7.0",
-    "querystring": "0.1.0"
+    "qs": ">= 0.5.3"
   },
   "devDependencies": {},
   "main": "index",

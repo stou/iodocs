@@ -109,6 +109,9 @@ ul
                                                                         option(value=choice, selected=true) #{choice}
                                                                 - else
                                                                         option(value=choice) #{choice}
+                                                      - else if (parameter.Type =='array')
+                                                          input.array-entry(name='params[' + parameter.Name + ']', value=parameter.Default, placeholder=className, style="float: left; clear: both;")
+                                                          input.add-array-entry(type='button', value='Add entry', name=parameter.Name)
                                                       - else if (parameter.Type =='boolean')
                                                            select(name='params[' + parameter.Name + ']', placeholder=className)
                                                                 - if (parameter.Default =='')
