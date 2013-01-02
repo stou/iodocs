@@ -1,0 +1,23 @@
+{
+  "endpoints":[
+  {
+    "name":"MyDemo",
+    "methods":[
+    {
+      "MethodName":"MyMethod",
+      "Synopsis":"Demonstrates how to specify parameter of array type",
+      "HTTPMethod":"GET",
+      "URI":"/my-method",
+      "RequiresOAuth":"N",
+      "parameters":[
+      {
+        "Name":"myArrayParam",
+        "Type":"array",
+        "Description":"Array of values"
+      }
+      ]
+    }
+    ]
+  }
+  ]
+}

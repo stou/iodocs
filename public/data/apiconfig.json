@@ -1,4 +1,11 @@
 {
+    "arrayparamdemo": {
+        "name": "Stou array param demo",
+        "protocol": "http",
+        "baseURL": "localhost",
+        "publicPath": "/1",
+        "headers" : {}
+    },
     "klout": {
         "name": "Klout API",
         "protocol": "http",
